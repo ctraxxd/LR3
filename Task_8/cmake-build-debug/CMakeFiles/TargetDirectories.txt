@@ -1,0 +1,3 @@
+/Users/ctraxxd/Documents/453502/OAiP/LR3/Task_8/cmake-build-debug/CMakeFiles/Task_8.dir
+/Users/ctraxxd/Documents/453502/OAiP/LR3/Task_8/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ctraxxd/Documents/453502/OAiP/LR3/Task_8/cmake-build-debug/CMakeFiles/rebuild_cache.dir

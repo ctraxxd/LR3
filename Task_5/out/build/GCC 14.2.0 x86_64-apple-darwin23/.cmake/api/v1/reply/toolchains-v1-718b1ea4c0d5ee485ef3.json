@@ -1,0 +1,102 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/usr/local/Cellar/gcc/14.2.0/lib/gcc/current/gcc/x86_64-apple-darwin23/14/include",
+						"/usr/local/Cellar/gcc/14.2.0/lib/gcc/current/gcc/x86_64-apple-darwin23/14/include-fixed",
+						"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include",
+						"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks"
+					],
+					"linkDirectories" : 
+					[
+						"/usr/local/Cellar/gcc/14.2.0/lib/gcc/current/gcc/x86_64-apple-darwin23/14",
+						"/usr/local/Cellar/gcc/14.2.0/lib/gcc/current/gcc",
+						"/usr/local/Cellar/gcc/14.2.0/lib/gcc/current"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"emutls_w",
+						"heapt_w",
+						"gcc"
+					]
+				},
+				"path" : "/usr/local/bin/gcc-14",
+				"version" : "14.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/usr/local/Cellar/gcc/14.2.0/include/c++/14",
+						"/usr/local/Cellar/gcc/14.2.0/include/c++/14/x86_64-apple-darwin23",
+						"/usr/local/Cellar/gcc/14.2.0/include/c++/14/backward",
+						"/usr/local/Cellar/gcc/14.2.0/lib/gcc/current/gcc/x86_64-apple-darwin23/14/include",
+						"/usr/local/Cellar/gcc/14.2.0/lib/gcc/current/gcc/x86_64-apple-darwin23/14/include-fixed",
+						"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include",
+						"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks"
+					],
+					"linkDirectories" : 
+					[
+						"/usr/local/Cellar/gcc/14.2.0/lib/gcc/current/gcc/x86_64-apple-darwin23/14",
+						"/usr/local/Cellar/gcc/14.2.0/lib/gcc/current/gcc",
+						"/usr/local/Cellar/gcc/14.2.0/lib/gcc/current"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"emutls_w",
+						"heapt_w",
+						"stdc++",
+						"gcc_s.1.1",
+						"gcc"
+					]
+				},
+				"path" : "/usr/local/bin/g++-14",
+				"version" : "14.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
